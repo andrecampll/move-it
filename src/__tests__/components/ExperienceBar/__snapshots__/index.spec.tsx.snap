@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExperienceBar should be able to render 1`] = `
+.c0 header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 header span {
+  font-size: 1rem;
+}
+
+.c0 header > div {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--gray-line);
+  margin: 0 1.5rem;
+  position: relative;
+}
+
+.c0 header > div > div {
+  height: 4px;
+  border-radius: 4px;
+  background: var(--green);
+}
+
+.c0 header > div > span {
+  position: absolute;
+  top: 12px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+<div
+  class="c0"
+  data-testid="experience-bar"
+>
+  <header>
+    <span>
+      0 xp
+    </span>
+    <div>
+      <div
+        style="width: 50%;"
+      />
+      <span
+        style="left: 50%;"
+      >
+        300 xp
+      </span>
+    </div>
+    <span>
+      600 xp
+    </span>
+  </header>
+</div>
+`;
