@@ -1,3 +1,10 @@
+import ExperienceBar from 'components/ExperienceBar'
+import { Container } from '../styles/Home'
+
 export default function Home() {
-  return <h1>hello</h1>
+  return (
+    <Container>
+      <ExperienceBar />
+    </Container>
+  )
 }
